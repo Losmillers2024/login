@@ -1,0 +1,61 @@
+body {
+    background: #0080FF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+form {
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+button {
+    background-color: #0080FF;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+.google-btn {
+    display: block;
+    width: 100%;
+    background-color: #dd4b39;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.google-btn:hover {
+    background-color: #c23321;
+}
+

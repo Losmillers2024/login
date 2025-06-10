@@ -80,22 +80,4 @@ Podrás:
 - Confirmar cambio de clave mediante token (`recuperar_clave_confirmar.php`)
 - Cerrar sesión (`logout.php`)
 
-### 6. Envío de correos (opcional)
 
-Por defecto, el sistema muestra el token en pantalla. Si querés enviar correos reales:
-
-1. Instalar PHPMailer (por Composer o manualmente).
-2. Configurar los parámetros SMTP en `recuperar_clave.php`.
-3. Reemplazar el `echo` del enlace por una función que use PHPMailer.
-
-Ejemplo básico con PHPMailer:
-
-```php
-$mail->isSMTP();
-$mail->Host = 'smtp.tuservidor.com';
-$mail->SMTPAuth = true;
-$mail->Username = 'usuario@dominio.com';
-$mail->Password = 'contraseña';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
-```

@@ -99,10 +99,3 @@ $mail->Password = 'contraseña';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 ```
-
----
-
-## Créditos
-
-Proyecto desarrollado por [Tu Nombre o Equipo]  
-Fecha de desarrollo: Junio 2025
